@@ -61,7 +61,7 @@
 
 @keyframes move{
     from{
-        transform:translateX(0)
+        transform:translateX(0px)
     }
     to{
         transform: translateX(-200px);
