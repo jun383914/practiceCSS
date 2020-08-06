@@ -12,3 +12,22 @@
     background-color: red;
 
 }
+
+.positioning{
+    background-color: rosybrown;
+}
+
+#wrapper :nth-child(2){
+    background-color: seashell;
+    border:3px dotted;
+    position: relative;
+}
+
+#white div{
+    background-color: springgreen;
+    height:100px;
+    widows: 100px;
+    position: absolute;
+    top: 25px;
+    left:30px;
+}
