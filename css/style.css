@@ -31,3 +31,16 @@
     top: 25px;
     left:30px;
 }
+
+#parent div{
+    background-color: lightgreen;
+    border:1px solid;
+}
+
+#parent{
+    display:flex;
+}
+
+#parent :nth-child(2){
+    margin:0 auto;
+}
