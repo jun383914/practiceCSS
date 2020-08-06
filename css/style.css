@@ -44,3 +44,26 @@
 #parent :nth-child(2){
     margin:0 auto;
 }
+
+#window{
+    width:100px;
+}
+
+#slider{
+    display: flex;
+    overflow:hidden;
+}
+
+#slider img{
+    transform: translateX(0px);
+    animation: move 3s infinite;
+}
+
+@keyframes move{
+    from{
+        transform:translateX(0)
+    }
+    to{
+        transform: translateX(-200px);
+    }
+}
