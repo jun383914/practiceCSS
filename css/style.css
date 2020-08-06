@@ -31,3 +31,14 @@
     top: 25px;
     left:30px;
 }
+#searchIcon img{
+    width: 15px;
+}
+#searchIcon img, #searchIcon input{
+    position: absolute;
+    top: 5px;
+}
+
+#searchIcon{
+    position: relative;
+}
